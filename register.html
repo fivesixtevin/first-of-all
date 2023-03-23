@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<h1 style="color: red;">Sign Your Name In <strong>BLOOD</strong></h1>
+	
+	<form>
+		<!-- Use GET, not POST 
+		 This is the Way to Leave a Note to Developers
+			Does not display on the webpage/application--> 
+		 <br>
+		First Name:* <input type="text"required 
+		name="Firstname"><br>
+		Middle Initial: <input type="text" name="Middlename"><br>
+		Last Name:* <input type="text"required 
+		name='Lastname'><br>
+		Password:* <input type="Password"required 
+		minlength="8" name='Password'><br>
+		Email: <input type="email" name="Email"><br>
+		Birth Date:* <input type="date"required 
+		name="Birth"><br>
+		Gender:*<br>
+		<input type="radio" name="gender"required>Male<br>
+		<input type="radio" name="gender"required>Female<br>
+		<input type="radio" name="gender"required>Non-Binary<br>
+		<input type="radio" name="gender"required>Prefer not to specify<br>
+		Pets <br>
+		<input type="checkbox" name="Cats">Cats<br>
+		<input type="checkbox" name="Dogs">Dogs<br>
+		Are you Smoker?<br>
+		<input type="radio" name="smoke">Yes<br>
+		<input type="radio" name="smoke">No<br>
+	<input type="submit" value="Register"> <input type="reset" value="Reset"><br><br>
+	</form>
+
+	<h2>W3Schools "Label for" method</h2>
+	Allows you to select by clicking on the word instead of having to click the actual button to submit an entry <br>
+ 	<form><br>
+ 		<label for="ID">ID Number</label>
+ 		<input type="text" id="ID" name="ID"><br>
+ 		<label for="SSN">Social Security Number</label>
+ 		<input type="text" id="SSN" name="SSN"><br>
+ 		<label for="Address"> Address </label>
+ 		<input type="text" id="Address" name="Address"><br>
+ 		<h3>Account Type</h3>
+ 		<label for="Card">Gold Card Holder</label>
+ 		<input type="checkbox" id="Card" name="Card">
+ 		<label for="Policy">Policy Holder</label>
+ 		<input type="checkbox" id="Policy" name="Policy">
+ 		<label for="New">New Member</label>
+ 		<input type="checkbox" id="New" name="New"><br>
+ 		<h3>Were you referred by any bargaining souls?</h3>
+ 		<label for="Y">Yes</label>
+ 		<input type="radio" id="Y" name="ref"><br>
+ 		<label for="N">No</label>
+ 		<input type="radio" id="N" name="ref"><br>
+ 	<input type="Submit" value="Submit"> 
+ 	<input type="Reset" value="Reset">	
+ 	</form>
+ 	<br>
+ 	<div class="Return">
+ 		<a href="index(bs).html" style="color: black;">Return to Page</a>
+ 	</div>
+ 	<h3>Disclaimer: All information entered can and will be used to incriminate you in any way possible </h3>
+
+ 	<h3 style="color: black; text-align: Left;">List of Possible Adverse Effects</h3>
+ 	 <ul>
+ 	 	<div id="div3">
+ 		<li class="sideeffects">Nausea</li>
+ 		<li class="sideeffects"	id="blk">Diarrhea</li>
+ 		<li class="sideeffects" id="blk">Loss of Motor Functions</li>
+ 		<li class="sideeffects" id="blk">Loss of Sight</li>
+ 		<li class="sideeffects">Loss of Taste</li>
+ 		<li class="sideeffects">Feelings of emptiness or decreased Selfworth</li>
+ 		<li class="sideeffects">Loss of purpose</li>
+ 		<li class="sideeffects">Agnozing Death</li>
+ 		</div>
+ 	</ul>
+</body>
+</html>

@@ -1,0 +1,74 @@
+/*Selector{
+	Property: value;
+}*/
+
+/* Register */
+
+
+/* element, element */
+h1, h2{
+	text-align: center;
+	border: 6px solid #7887AB; 
+
+}
+
+h2{
+	text-align: center;
+}
+
+body {
+	background-image: url(fabrizio-conti-b5rPuIBFeME-unsplash.jpg);
+	background-size: cover;
+
+}
+
+h3 {
+	text-align: center;
+	color: ghostwhite;
+}
+
+/* element element */
+form h3 {
+	text-align: left;
+	color: black;
+}
+
+/* :last/first child */
+.sideeffects:first-child {
+	color: darkred;
+	list-style: georgian;
+	font-style: italic;
+}
+
+.sideeffects {
+	color: ghostwhite;
+}
+
+#blk {
+	color: black;
+}
+
+
+.Return {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* !Important
+Breaks the rule of css. 
+Attributes with this tag override subsequent style sheets 
+*/
+

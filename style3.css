@@ -1,0 +1,126 @@
+/*Selector{
+	Property: value;
+}*/
+
+/* Manifesto */
+
+body {
+	background-color: #FF4500;
+}
+
+p {
+	color: whitesmoke;
+	line-height: 30px;
+	font-size: 110%;
+}
+span {
+	font-family: cursive;
+	font-size:2em;
+
+}
+
+ /* Fonts */
+body > h1 {
+	font-family: Trattatello;
+	text-decoration: underline;
+	text-transform: capitalize;
+	font-size: 200%;
+	text-align: center;
+}
+
+p.p1 {
+	font-family: Luminari;
+}
+
+p#p2 {
+	font-family: Luminari;
+
+}
+p + p {
+	font-family: Luminari;
+}
+
+#externalfont {
+	font-family: 'Euphoria Script', cursive;
+	font-size: 125%;
+}
+
+/* Inserting Images */
+img {
+	float: right;
+}
+
+.Return {
+	text-align: right;
+}
+
+/* 
+Currently Trying to figure out how to add caption(footer) to bottom of picture without pushing the whole paragraph to the bottom
+footer {
+	clear: right;
+	text-align: right;
+	display: block;
+	font-size: 60%;
+}
+*/
+
+/* 
+	Box Model 
+	Content > Padding > *Border* > Margin
+*/
+#box1 {
+	border: 3px solid black;
+}
+#box2 {
+	border: 3px solid black;
+	display: inline-block;
+}
+ #box3 {
+ 	border: 3px solid black;
+ 	display: inline-block;
+  	padding: 5px 10px 5px 10px;
+}
+#box4 {
+	border: 3px solid black;
+ 	display: inline-block;
+ 	padding: 5px 10px;
+}
+#box5 {
+	border: 3px solid black;
+ 	display: inline-block;
+ 	padding: 5px 10px;
+ 	margin: 3px 10px 3px 0px;
+}
+#box6 {
+	border: 3px solid black;
+ 	display: inline-block;
+ 	padding: 5px 10px;
+ 	margin: 3px 0px;
+}
+#box7 {
+	border: 3px solid black;
+ 	display: block;
+ 	padding: 5px 10px;
+ 	margin: 3px 0px;
+ 	width: 100px;
+}
+#box8 {
+	border: 3px solid black;
+ 	display: block;
+ 	padding: 5px 10px;
+ 	margin: 3px 0px;
+ 	width: 100px;
+ 	height: 100px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+

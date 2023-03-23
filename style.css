@@ -1,0 +1,92 @@
+/*Selector{
+	Property: value;
+}*/
+
+/* Home Page */
+
+h1 {
+	text-align: center;
+
+}
+
+h2 {
+	text-align: center;
+}
+
+body {
+	background-image: url(milad-fakurian-UiiHVEyxtyA-unsplash.jpg);
+	background-size: cover;
+}
+ 
+ /* Class */
+.veggies {
+	color: green;
+	list-style: none;
+}
+
+/* ID */
+#div1 {
+	background-color: rgba(0, 255, 0, 0.3);
+}
+
+#div2 {
+	background-color: rgba(0, 43, 38, 0.3);
+	display: inline-block;
+}
+
+#div3 {
+	text-align: right;
+}
+
+#register {
+	text-align: right;
+}
+
+#untitled {
+	text-align: right;
+}
+
+#bootstrap {
+	text-align: right;
+}
+
+#startup {
+	text-align: right;
+}
+
+/* 
+"*{}" is used for formatting the entire webpage. 
+	Affected by specificity [different styles applied in descender order by entry] 
+*/
+
+/* element > element*/
+ol > div {
+	color: #068100 ;
+}
+
+/* element + element*/
+
+li + img {
+	cursor: not-allowed;
+}
+
+/* :hover */
+
+
+#Listvalue :nth-child(3):hover {
+	color: #A66800;
+ 	font: papyrus;
+ 	font-size: 20px;
+}
+
+.Register {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
