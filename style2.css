@@ -17,7 +17,7 @@ h2{
 }
 
 body {
-	background-image: url(fabrizio-conti-b5rPuIBFeME-unsplash.jpg);
+	background: url(mountaintop.jpg) no-repeat center;
 	background-size: cover;
 
 }
@@ -34,8 +34,8 @@ form h3 {
 }
 
 /* :last/first child */
-.sideeffects:first-child {
-	color: darkred;
+.sideeffects:last-child {
+	color: red;
 	list-style: georgian;
 	font-style: italic;
 }
@@ -44,10 +44,11 @@ form h3 {
 	color: ghostwhite;
 }
 
+/*
 #blk {
 	color: black;
 }
-
+*/
 
 .Return {
 	text-align: center;
