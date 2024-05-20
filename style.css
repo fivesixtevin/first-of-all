@@ -46,7 +46,7 @@ body {
 	text-align: right;
 }
 
-#bootstrap {
+#home {
 	text-align: right;
 }
 
@@ -54,9 +54,12 @@ body {
 	text-align: right;
 }
 
+#tevbook {
+	text-align: right;
+}
 /* 
 "*{}" is used for formatting the entire webpage. 
-	Affected by specificity [different styles applied in descender order by entry] 
+	Affected by specificity [different styles applied in descending order by entry] 
 */
 
 /* element > element*/
