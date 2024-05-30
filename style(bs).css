@@ -1,6 +1,9 @@
 .nav-link {
 	color: darkred;
 }
+#navone {
+	color: white;
+}
 
 .col {
 	background-color: #EBEBEB;
