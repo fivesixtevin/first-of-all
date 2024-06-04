@@ -1,0 +1,10 @@
+ /*Selector{
+	Property: value;
+}*/
+
+/* Features */
+
+body {
+	background: url(https://images.freeimages.com/images/large-previews/8d6/white-thick-clouds-3-1172872.jpg?fmt=webp&h=350) no-repeat center fixed;
+	background-size: cover;
+}
