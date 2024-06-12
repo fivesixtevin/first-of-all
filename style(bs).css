@@ -1,7 +1,12 @@
 .nav-link {
 	color: darkred;
 }
+
 #navone {
+	color: white;
+}
+
+#navtwo {
 	color: white;
 }
 
