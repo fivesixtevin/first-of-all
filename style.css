@@ -4,6 +4,11 @@
 
 /* Home Page */
 
+
+*{
+	font-family: Times;
+}
+
 h1 {
 	text-align: center;
 
