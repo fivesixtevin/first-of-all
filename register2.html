@@ -1,3 +1,5 @@
+<!-- Recreating the register page using bootstrap --> 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,33 +50,34 @@
     <div class="col-sm-7">
 
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="genderMale" id="Male" value="male">
+        <input class="form-check-input" type="radio" name="gender" id="Male" value="male">
         <label class="form-check-label" for="Male">
           Male
         </label>
       </div>
 
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="genderFemale" id="Female" value="female">
+        <input class="form-check-input" type="radio" name="gender" id="Female" value="female">
         <label class="form-check-label" for="Female">
           Female
         </label>
       </div>
 
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="genderNot" id="preferNot" value="prefernot">
+        <input class="form-check-input" type="radio" name="gender" id="preferNot" value="prefernot">
         <label class="form-check-label" for="preferNot">
           Prefer not to specify
         </label>
       </div>
 
       <div class="form-check disabled">
-        <input class="form-check-input" type="radio" name="genderNA" id="NA" value="N/A" disabled>
+        <input class="form-check-input" type="radio" name="gender" id="NA" value="N/A" disabled>
         <label class="form-check-label" for="NA">
           N/A
         </label>
       </div>
     </div>
+    <!-- Radio Inputs must have the same name to be considered a group (allows the other buttons to deselect when choosing one) -->
 
     <div class="row mb-3">
     	<legend class="col-form-label col-sm-2 pt-0">Pets</legend>
@@ -84,6 +87,7 @@
           <label class="form-check-label" for="petYes">Yes</label>
         </div>
       </div>
+      <!-- "id" and "for" must match in order to be linked -->
 
       <div class="col-sm-10 offset-sm-2">
         <div class="form-check">
