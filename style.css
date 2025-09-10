@@ -4,6 +4,10 @@
 
 /* Home Page */
 
+*{
+	font-family: Times;
+}
+
 h1 {
 	text-align: center;
 
@@ -85,6 +89,13 @@ li + img {
 .Register {
 	text-align: center;
 }
+
+
+
+
+
+
+
 
 
 
