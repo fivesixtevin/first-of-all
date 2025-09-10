@@ -1,0 +1,40 @@
+h1, h2{
+	text-align: center;
+	border: 6px solid #7887AB; 
+
+}
+
+h2{
+	text-align: center;
+}
+
+body {
+	background: url(mountaintop.jpg) no-repeat center;
+	background-size: cover;
+
+}
+
+h3 {
+	text-align: center;
+	color: black;
+}
+
+/* element element */
+form h3 {
+	text-align: left;
+	color: black;
+}
+
+
+.Return {
+	text-align: right;
+}
+
+
+.fillout {
+	text-align: left;
+}
+
+#accountType {
+	color: black;
+}

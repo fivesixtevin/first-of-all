@@ -2,11 +2,7 @@
 	color: darkred;
 }
 
-#navone {
-	color: white;
-}
-
-#navtwo {
+#navone, #navtwo, #navthree {
 	color: white;
 }
 
