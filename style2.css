@@ -24,7 +24,7 @@ body {
 
 h3 {
 	text-align: center;
-	color: ghostwhite;
+	color: black;
 }
 
 /* element element */
@@ -40,8 +40,8 @@ form h3 {
 	font-style: italic;
 }
 
-.sideeffects {
-	color: ghostwhite;
+.sideeffects, #accountType {
+	color: black;
 }
 
 /*
@@ -52,6 +52,15 @@ form h3 {
 
 .Return {
 	text-align: center;
+}
+
+
+.fillout {
+	text-align: left;
+}
+
+.sins {
+	color: whitesmoke;
 }
 
 
